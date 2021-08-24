@@ -1,0 +1,70 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular hora de vender o ativo</title>
+    <script rel="javascript" src="JS/calculos.js"></script>
+ 
+    <style>
+        body {
+            font-family: sans-serif;
+            color: #FFF;
+            background-color: #191919;
+        }
+        
+        input {
+            font-size: 16pt;
+            padding: 10px;
+            margin: 5px;
+            outline: none;
+            color: #FFF;
+            background-color: #191919;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 1px 1px 1px 1px silver;
+            display: inline-block;
+        }
+        
+        b {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Quando vender minhas moedinhas fofas? </h1>
+        <form name="form">
+            <input placeholder="Quantidade de Moeda" class='quant_moedas' type="number" step="any" onkeyup="calcular()">
+            <input placeholder="Valor de Compra" class='valor_compra' type="number" step="any" onkeyup="calcular()">
+            <input placeholder='Valor Atual da Moeda' class='valor_atual_moeda' type="number" step="any" onkeyup="calcular()">
+            <br>
+            <center>
+                <input placeholder='Quantas quer Vender?' class='quantas_vender' type="number" step="any" onkeyup="calcular()">
+            </center>
+        </form>
+        <hr>
+
+        <h3 id="saida"></h3>
+        <h3 id="saida2"></h3>
+        <h3 id="saida3"></h3>
+        <h3 id="saida4"></h3>
+        <hr id='linha' style="display: none;">
+        <h3 id="saida5"></h3>
+        <h3 id="saida6"></h3>
+
+
+
+ 
+
+
+
+    </center>
+</body>
+
+</html>
