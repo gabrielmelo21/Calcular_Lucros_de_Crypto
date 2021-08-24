@@ -1,0 +1,25 @@
+ 
+        
+        body {
+            font-family: sans-serif;
+            color: #FFF;
+            background-color: #191919;
+        }
+        
+        input {
+            font-size: 16pt;
+            padding: 10px;
+            margin: 5px;
+            outline: none;
+            color: #FFF;
+            background-color: #191919;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 1px 1px 1px 1px silver;
+            display: inline-block;
+        }
+        
+        b {
+            color: orange;
+        }
+ 
